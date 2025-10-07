@@ -1,0 +1,29 @@
+.app-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+  font-family: "Poppins", sans-serif;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.loading-text {
+  text-align: center;
+  color: #555;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}

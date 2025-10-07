@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  background-color: #f9f9f9;
+}
+button:hover {
+  opacity: 0.8;
+}

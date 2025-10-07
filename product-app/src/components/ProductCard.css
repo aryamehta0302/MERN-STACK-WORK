@@ -1,0 +1,67 @@
+.card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.card-img img {
+  height: 150px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 1rem;
+  margin: 12px 0 6px;
+  color: #333;
+  height: 40px;
+  overflow: hidden;
+}
+
+.card-category {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  color: #4CAF50;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.card-btn {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+  background: linear-gradient(135deg, #66BB6A, #388E3C);
+  transform: scale(1.05);
+}

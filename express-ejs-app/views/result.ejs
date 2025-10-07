@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Result</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #e8f5e9;
+        margin-top: 100px;
+      }
+      .result-box {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        display: inline-block;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+      a {
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        background-color: #4caf50;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      a:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="result-box">
+      <h1>✅ Calculation Result</h1>
+      <p><strong>Number 1:</strong> <%= num1 %></p>
+      <p><strong>Number 2:</strong> <%= num2 %></p>
+      <h2>Sum = <%= sum %></h2>
+
+      <a href="/">Back to Form</a>
+    </div>
+  </body>
+</html>
